@@ -1,0 +1,23 @@
+{
+    "name": "seu_nome/seu_projeto",
+    "description": "Projeto PHP com carrinho de compras e banco de dados",
+    "require": {
+        "php": ">=7.4",
+        "vlucas/phpdotenv": "^5.0",
+        "monolog/monolog": "^2.0",
+        "pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "echo 'Composer dependencies installed'"
+        ]
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}

@@ -1,0 +1,55 @@
+/* Estilo do fundo do popup (overlay) */
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo semitransparente */
+}
+
+/* Conteúdo do popup */
+.popup-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    position: relative;
+    text-align: center;
+}
+
+/* Botão de fechar o popup */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #ff66b2;
+}
+
+/* Estilo das abas no popup */
+.tab button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    width: 50%;
+    border: none;
+    font-size: 16px;
+}
+
+.tab button:hover {
+    background-color: #ff1493;
+}
+
+.tabcontent {
+    display: none;
+}
+
+.tabcontent.active {
+    display: block;
+}

@@ -1,0 +1,24 @@
+# Ignora a pasta vendor do Composer
+/vendor/
+
+# Ignora o arquivo .env que contém configurações sensíveis
+.env
+
+# Ignora arquivos temporários ou de backup
+*.log
+*.tmp
+*.bak
+
+# Ignora arquivos de IDEs como o VSCode e PhpStorm
+.vscode/
+.idea/
+
+# Ignora o diretório de cache e logs de execução do PHP
+/cache/
+logs/
+
+# Ignora arquivos do sistema, como o .DS_Store no macOS
+.DS_Store
+
+# Ignora arquivos de compilação (caso haja)
+*.phar
